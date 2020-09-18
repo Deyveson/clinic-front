@@ -1,0 +1,11 @@
+export * from './consultaController.service';
+import { ConsultaControllerService } from './consultaController.service';
+export * from './doctorController.service';
+import { DoctorControllerService } from './doctorController.service';
+export * from './loginController.service';
+import { LoginControllerService } from './loginController.service';
+export * from './pacienteController.service';
+import { PacienteControllerService } from './pacienteController.service';
+export * from './usuarioController.service';
+import { UsuarioControllerService } from './usuarioController.service';
+export const APIS = [ConsultaControllerService, DoctorControllerService, LoginControllerService, PacienteControllerService, UsuarioControllerService];

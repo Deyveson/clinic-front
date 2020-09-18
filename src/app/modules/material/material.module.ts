@@ -44,19 +44,18 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
-import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
-    SideNavigationComponent
   ],
   imports: [
     CommonModule,
     MatSidenavModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    MatIconModule
   ],
-  exports: [SideNavigationComponent]
+  exports: []
 })
 export class MaterialModule { }
